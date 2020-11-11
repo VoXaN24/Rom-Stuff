@@ -13,3 +13,4 @@
 
 	<!-- Vendor file -->
 	<project path="device/asus/zenfone3" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
+</manifest>
