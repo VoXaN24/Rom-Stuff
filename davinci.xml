@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="device" fetch="https://github.com" revision="androidten" />
+	<remote name="device" fetch="https://github.com" revision="ten-plus" />
 	<remote name="kernel" fetch="https://github.com" revision="main" />
 	<!--Device Trees-->
-	<project path="device/xiaomi/davinci" name="VoXaN24/xiaomi_davinci_devices" remote="device" />
+	<project path="device/xiaomi/davinci" name="PixelExperience-Devices/device_xiaomi_davinci" remote="device" />
 	<!--Kernel-->
-	<project path="kernel/xiaomi/platina" name="VoXaN24/xiaomi_davinci_kernel" remote="kernel" />
+	<project path="kernel/xiaomi/platina" name="PixelExperience-Devices/kernel_xiaomi_davinci" remote="ten" />
 </manifest>
