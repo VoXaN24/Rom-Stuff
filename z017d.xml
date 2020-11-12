@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- For Asus ZE552KL / Zenfone 3 -->
 	<!-- Source -->
 	<remote name="vendor" fetch="https://github.com" revision="master" />
 	<remote name="device" fetch="https://github.com" revision="lineage-17.0" />
 	<remote name="kernel" fetch="https://github.com" revision="master" />
 
 	<!-- Kernel from asus website's -->
-	<project path="device/asus/ZE552KL" name="VoXaN24/Kernel_Zenfone_3_ZE552KL" remote="kernel" />
+	<project path="device/asus/z017d" name="VoXaN24/Kernel_Zenfone_3_ZE552KL" remote="kernel" />
 
 	<!--Device from official lineageos depot -->
-	<project path="device/asus/ZE552KL" name="LineageOS/android_device_asus_zenfone3" remote="device" />
+	<project path="device/asus/z017d" name="LineageOS/android_device_asus_zenfone3" remote="device" />
 
 	<!-- Vendor file -->
-	<project path="device/asus/ZE552KL" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
+	<project path="device/asus/z017d" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
 </manifest>
