@@ -7,11 +7,11 @@
 	<remote name="kernel" fetch="https://github.com" revision="master" />
 
 	<!-- Kernel from asus website's -->
-	<project path="device/asus/ze552kl" name="VoXaN24/Kernel_Zenfone_3_ZE552KL" remote="kernel" />
+	<project path="kenel/asus/ze552kl" name="VoXaN24/Kernel_Zenfone_3_ZE552KL" remote="kernel" />
 
 	<!--Device from official lineageos depot -->
 	<project path="device/asus/ze552kl" name="LineageOS/android_device_asus_zenfone3" remote="device" />
 
 	<!-- Vendor file -->
-	<project path="device/asus/ze552kl" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
+	<project path="vzendor/asus/ze552kl" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
 </manifest>
