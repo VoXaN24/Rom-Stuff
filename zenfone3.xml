@@ -13,5 +13,5 @@
 	<project path="device/asus/ze552kl" name="LineageOS/android_device_asus_zenfone3" remote="device" />
 
 	<!-- Vendor file -->
-	<project path="vzendor/asus/ze552kl" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
+	<project path="vendor/asus/ze552kl" name="VoXaN24/vendor_asus_zenfone3" remote="kernel" />
 </manifest>
