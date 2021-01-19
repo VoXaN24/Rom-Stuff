@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="device" fetch="https://github.com" revision="ten-plus" />
-	<remote name="kernel" fetch="https://github.com" revision="ten" />
+	<remote name="device" fetch="https://github.com" revision="main" />
+	<remote name="kernel" fetch="https://github.com" revision="main" />
+	<remote name="vendor" fetch="https://github.com" revision="main" />
 	<!--Device Trees-->
-	<project path="device/xiaomi/davinci" name="PixelExperience-Devices/device_xiaomi_davinci" remote="device" />
+	<project path="device/xiaomi/davinci" name="VoXaN24/device_xiaomi_davinci/" remote="device" />
 	<!--Kernel-->
-	<project path="kernel/xiaomi/platina" name="PixelExperience-Devices/kernel_xiaomi_davinci" remote="kernel" />
+	<project path="kernel/xiaomi/davinci" name="VoXaN24/kernel_xiaomi_davinci/" remote="kernel" />
+	<!-- Vendor file -->
+	<project path="vendor/xiaomi/davinci" name="VoXaN24/vendor_xiaomi_davinci/" remote="vendor" />
 </manifest>
