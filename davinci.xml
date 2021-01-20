@@ -3,6 +3,7 @@
 	<remote name="device" fetch="https://github.com" revision="main" />
 	<remote name="kernel" fetch="https://github.com" revision="main" />
 	<remote name="vendor" fetch="https://github.com" revision="main" />
+	<!-- Android 11 manifest -->
 	<!--Device Trees-->
 	<project path="device/xiaomi/davinci" name="voxan24/xiaomi_davinci_devices" remote="device" />
 	<!--Kernel-->
